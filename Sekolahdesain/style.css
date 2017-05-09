@@ -1,0 +1,324 @@
+body
+{
+	margin: 0 auto;
+	padding: 0px;
+	font-size: 10px;
+}
+#wrapper
+{
+	max-width: 1366px;
+	max-height: 768%;
+	margin: 0 auto;
+	padding: 0;
+	background: url(background/background1.png);
+	background-attachment: fixed;
+}
+#header
+{
+	width: 100%;
+	height: 97px;
+	background-color: red;
+}
+#content1
+{
+	float: left;
+	width: 100%;
+	height: 553px;
+	background: rgba(0,0,0, 0.7);
+}
+#subcontent1
+{
+	width: 100%;
+	height: 90%;
+	margin: 2% auto;
+}
+#footer
+{
+	clear: both;
+	width: 100%;
+	height: 50px;
+	background-color: red;
+}
+#menu
+{
+	float: right;
+	margin-top: 55px;
+	margin-right: 10%;
+}
+.menudrop ul li
+{
+	display: inline-block;
+	margin-left: -3px;
+}
+.menudrop ul li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: arial;
+	padding: 15px 25px;
+	background-color: #db0202;
+	transition: background-color 1s;
+}
+.menudrop1
+{
+	position: absolute;
+}
+.menudrop1 ul
+{
+	width: 100px;
+	height: 148px;
+	background-color: ;
+	position: relative;
+	top: -15px;
+	display: none;
+}
+.menudrop1 ul li a
+{
+	display: block;
+	position: relative;
+	top: 35px;
+	width: 100px;
+	left: -37px;
+	margin-top: 2px;
+	animation: animasi 1s;
+}
+.menudrop ul li a:hover
+{
+	background-color: #ac0000;
+}
+.menudrop ul li:hover .menudrop1 ul
+{
+	display: block;
+
+}
+.menudrop1 ul li a:hover
+{
+	border-left: 3px solid white;
+}
+
+@keyframes animasi{
+	from{
+		margin-top: 30px;
+	}
+	to{
+		margin-top: 2px;
+	}
+}
+.image
+{
+	width: 260px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+.image img
+{
+	width: 100%;
+}
+.image1
+{
+	margin: 8px;
+	float: left;
+}
+#subcontent1 p
+{
+	font-size: 3.6em;
+	font-family: century gothic;
+	text-align: center;
+	margin: 0px;
+	padding-top: 150px;
+	color: white;
+}
+#subcontent1 p a
+{
+	text-decoration: none;
+	color: white;
+	font-family: century gothic;
+	font-size: 0.7em;
+	padding: 10px 25px;
+	border: 3px solid white;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	transition: background 1s , color 1s;
+}
+#subcontent1 p a:hover
+{
+	background: white;
+	color: rgba(0,0,0, 0.7);
+}
+#footer a
+{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 1.5em;
+	float: right;
+	padding-top: 15px;
+	padding-right: 6px;
+}
+#content2
+{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+#footer1
+{
+	width: 100%;
+	height: auto;
+	background-color: #101010;
+	padding: 1% 0% 4% 0%;
+}
+.subcontent2
+{
+	padding: 1% 4%;
+	width: 42%;
+	height: 80%;
+	float: left; 
+	margin: 3% 1%;
+	border-right: 2px solid red;
+}
+.subcontent3
+{
+	padding: 1% 1%;
+	width: 43%;
+	height: 80%;
+	float: left; 
+	margin: 3% 1%;
+}
+.register h2
+{
+	font-size: 3em;
+	font-family: arial;
+	text-align: center;
+	width: 70%;
+	border-bottom: 2px solid red;
+	margin: auto;
+	padding-bottom: 10px;
+}
+.register table
+{
+	margin: 10px auto;
+	font-size: 2em;
+	font-family: arial;
+	width: 80%;
+	height: auto;
+}
+.register tr
+{
+	height: 60px;
+}
+.register input
+{
+	width: 100%;
+	padding: 15px 0px 15px 10px; 
+	font-size: 0.7em;
+	border: 0px;
+	font-family: arial;
+	background-color: #d4d4d4;
+}
+.register input:focus
+{
+	border: 2px solid red;
+}
+.register button
+{
+	padding: 10px 15%;
+	background-color: #ff3f3f;
+	border: 0px;
+	font-size: 1em;
+	color: white;
+	font-family: century gothic;
+	transition: border 1s , color 1s;
+}
+.register button:hover
+{
+	background-color: white;
+	border: 2px solid red;
+	color: red;
+}
+.register a
+{
+	color:  #101010;
+	text-decoration: none;
+	border-left: 3px solid red;
+	padding: 20px 0px 20px 20px; 
+	font-size: 0.7em;
+	margin-left: 10px;
+}
+.register p
+{
+	text-align: center;
+	font-size: 1.7em;
+	font-family: arial;
+	padding-top: 10px;
+}
+#subcontent1 .mutiara
+{
+	font-size: 1.8em;
+}
+.register .kelamin
+{
+	font-size: 0.2em;
+}
+.register select
+{
+	padding: 10px 70px 10px 0px;
+	font-size: 0.8em;
+}
+.wrapfoot
+{
+	width: 65%;
+	height: 220px;
+	margin: auto;
+	background-color: ;
+	border-bottom: 2px solid white;
+}
+.content3
+{
+	width: 50%;
+	height: 210px;
+	background-color: ;
+	float: left;
+	font-size: 1.7em;
+	font-family: arial;
+	color: white;
+	position: relative;
+	top: -20px;
+}
+.menufoot ul li
+{
+	display: block;
+}
+.menufoot ul li a
+{
+	text-decoration: none;
+	color: white;
+
+}
+.menufoot ul 
+{
+	float: left;
+}
+.menufoot
+{
+	position: relative;
+	left: 150px;
+	top: 20px;
+}
+.content3 .sosmed img
+{
+	width: 50px;
+ 	padding-top: 170px;
+ 	position: relative;
+ 	right: -70px;
+ 	clear: both;
+}
+.content3 img
+{
+	width: 80px;
+	position: relative;
+	top: 10px;
+}
